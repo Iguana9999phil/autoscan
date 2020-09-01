@@ -113,9 +113,9 @@ func (t target) getScanLibrary(folder string) ([]library, error) {
 		}
 	}
 
-	if len(libraries) == 0 {
-		return nil, fmt.Errorf("%v: failed determining libraries", folder)
-	}
+///	if len(libraries) == 0 {
+///		return nil, fmt.Errorf("%v: failed determining libraries", folder)
+///	}
 
 	return libraries, nil
 }
